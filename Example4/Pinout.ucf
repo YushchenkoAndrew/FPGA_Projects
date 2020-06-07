@@ -1,0 +1,51 @@
+// This configuration file used in Example3
+
+// Set clock
+NET	"i_clk"	LOC	=	"B8";
+
+// Set all 8 input signal from switchers
+NET	"i_Switches<0>"	LOC	=	"P11";
+NET	"i_Switches<1>"	LOC	=	"L3";
+NET	"i_Switches<2>"	LOC	=	"K3";
+NET	"i_Switches<3>"	LOC	=	"B4";
+NET	"i_Switches<4>"	LOC	=	"G3";
+NET	"i_Switches<5>"	LOC	=	"F3";
+NET	"i_Switches<6>"	LOC	=	"E2";
+NET	"i_Switches<7>"	LOC	=	"N3";
+
+// Set all 4 input signal from buttons
+NET	"i_Button<0>"	LOC	=	"A7";
+NET	"i_Button<1>"	LOC	=	"M4";
+NET	"i_Button<2>"	LOC	=	"C11";
+NET	"i_Button<3>"	LOC	=	"G12";
+
+// Set all 8 output signal for leds
+NET	"o_LED<0>"	LOC	=	"M5";
+NET	"o_LED<1>"	LOC	=	"M11";
+NET	"o_LED<2>"	LOC	=	"P7";
+NET	"o_LED<3>"	LOC	=	"P6";
+NET	"o_LED<4>"	LOC	=	"N5";
+NET	"o_LED<5>"	LOC	=	"N4";
+NET	"o_LED<6>"	LOC	=	"P4";
+NET	"o_LED<7>"	LOC	=	"G1";
+
+// Set output signal for Seven Segment Display
+NET	"o_SevenSegmentDisplay<0>"	LOC	=	"L14";//Segment -- "A"
+NET	"o_SevenSegmentDisplay<1>"	LOC	=	"H12";//Segment -- "B"
+NET	"o_SevenSegmentDisplay<2>"	LOC	=	"N14";//Segment -- "C"
+NET	"o_SevenSegmentDisplay<3>"	LOC	=	"N11";//Segment -- "D"
+NET	"o_SevenSegmentDisplay<4>"	LOC	=	"P12";//Segment -- "E"
+NET	"o_SevenSegmentDisplay<5>"	LOC	=	"L13";//Segment -- "F"
+NET	"o_SevenSegmentDisplay<6>"	LOC	=	"M12";//Segment -- "G"
+NET	"o_SevenSegmentDisplay<7>"	LOC	=	"N13";//Segment -- "."
+
+
+// Set output signal for Chosen Segment in Seven Segment Display
+NET	"o_Chosen_Segment<0>"	LOC	=	"F12";//Segment -- "1"
+NET	"o_Chosen_Segment<1>"	LOC	=	"J12";//Segment -- "2"
+NET	"o_Chosen_Segment<2>"	LOC	=	"M13";//Segment -- "3"
+NET	"o_Chosen_Segment<3>"	LOC	=	"K14";//Segment -- "4"
+
+
+
+

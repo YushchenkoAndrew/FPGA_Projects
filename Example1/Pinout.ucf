@@ -1,0 +1,14 @@
+// Pinout set all inputoutput parameter for program Main.v
+
+// Set up button, in parameter LOC set FPGA pin
+NET	"i_Button"	LOC = "A7";
+
+//	Set up array of leds
+NET	"o_LED<0>"	LOC = "M5";
+NET	"o_LED<1>"	LOC = "M11";
+NET	"o_LED<2>"	LOC = "P7";
+NET	"o_LED<3>"	LOC = "P6";
+NET	"o_LED<4>"	LOC = "N5";
+NET	"o_LED<5>"	LOC = "N4";
+NET	"o_LED<6>"	LOC = "P4";
+NET	"o_LED<7>"	LOC = "G1";
